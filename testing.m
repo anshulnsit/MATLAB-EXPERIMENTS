@@ -1,0 +1,11 @@
+a = 0.8;
+a1 = (8 - a*a)/(a*a + a*3 + 2);
+a2 = (a*a - a*3 + 2)/(a*a + a*3 + 2);
+b0 = (1.07*a*a*a*a - 2.75*a*a*a + 3.58*a*a + 2.05*a + 2.1)/(a*a + a*3 + 2);
+b1 = (-2.14*a*a*a*a - 0.91*a*a*a + 7.45*a*a + 0.64*a + 10.36)/(a*a + a*3 + 2);
+b2 = (1.07*a*a*a*a + 3.66*a*a*a + 0.78*a*a - 0.23*a + 10.09)/(a*a + a*3 + 2);
+h = tf([a2 a1 1],[1 b2 b1 b0]);
+sigma(h);
+title('Fractional Order ButterWorth - Order = 1.8');
+xlabel('Frequency (Hz)');
+ylabel('Gain (dB)');

@@ -1,5 +1,11 @@
 # MATLAB-EXPERIMENTS
 
-Contains EC 307 and EC 406 Labs Matlab Experiment files and relevant study material. 
+EC 317 Communication Systems Matlab Experiments
 
-Course: B.E. at NSIT
+In this course, Matlab codes on probability distribution functions and normalization vectors are coded. Finding mean, variance and pdf of uniform and Gaussian random variables are performed and coded in Matlab. Coorelation and Expectation values are computed using Matlab codes of both uniform and Gaussian random functions.
+
+EC 406 Microwave Devices and Circuits Matlab Experiments
+
+In this course, Matlab codes on finding s parameters of various circuits over a frequency range of 1 GHz to 10 GHz are coded. Passive Circuits including stubs are programmed in Matlab and amplitude and phase response of s21 and s11 parameters are performed. Relation between ABCD and S matrix are evaluated and used in Matlab Codes.
+
+Courses are affiliated from B.E. at Netaji Subhas Institute of Technology
